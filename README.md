@@ -1,1 +1,69 @@
-# Canvibe
+# CanvasVibe
+
+<img width="3107" height="1353" alt="image" src="https://github.com/user-attachments/assets/7f084ef1-a182-4bf3-934f-c8ff3707a7c8" />
+
+
+> 把零散的终端窗口，变成一个可组织、可切换、可远程管理的工作台。
+
+[Apple Silicon 下载](https://releases.canvibe.useai4.us/agent-releases/v0.1.2/CanvasVibe-0.1.2-macos-arm64.zip) | [Intel Mac 下载](https://releases.canvibe.useai4.us/agent-releases/v0.1.2/CanvasVibe-0.1.2-macos-x64.zip)
+
+CanvasVibe 是一个面向开发者的 terminal workbench。它保留本地终端执行的直接感，同时把多终端协作、工作区切换、设备配对和远程访问整合到一个更适合长期使用的界面里。
+
+如果你已经受够了在一堆 Terminal 窗口、Tab、SSH 连接和临时工作区之间来回切换，CanvasVibe 的目标就是把这件事重新整理好。
+
+## 为什么是 CanvasVibe
+
+- 终端仍然跑在你的机器上，不把执行环境交给云端
+- 用画布而不是标签页管理终端，更适合多任务和多项目并行
+- 一个工作区可以容纳多个终端、上下文和布局，而不是每次重新摆一遍
+- 云端只负责账号、设备、配对和远程可见性，不接管你的本地执行
+- 可以直接延伸到 VS Code 内部使用，而不是再切换一层工具
+
+## 核心卖点
+
+### 1. 本地执行，不牺牲控制权
+
+CanvasVibe 不是把终端“搬到云上”，而是在保留本地执行体验的前提下，补齐现代工作流真正缺的那部分: 组织、切换、连接和管理。
+
+### 2. 终端画布，而不是终端堆叠
+
+你可以把多个终端像工作台组件一样摆放、缩放和分组。相比传统 tab 式终端，它更适合:
+
+- 同时盯多个服务日志
+- 一边跑命令，一边看项目上下文
+- 给不同项目保留不同布局
+
+### 3. 从本机到远程设备，路径自然
+
+CanvasVibe 支持设备配对和远程 agent 可见性。你可以先把它当本地工具使用，再在需要的时候接入账号体系和远程访问能力，而不是一开始就被迫绑定某种云工作流。
+
+### 4. 更适合长期使用的开发工作区
+
+临时开终端很容易，长期维护一个稳定、清晰、可恢复的工作区却很难。CanvasVibe 更关注后者。
+
+## 适合谁
+
+- 经常同时打开多个终端的开发者
+- 需要在本地项目、远程机器和 SSH 会话之间切换的人
+- 想把“终端 + 工作区 + 远程设备”放进同一个界面的人
+- 希望在浏览器或 VS Code 中使用统一工作台体验的人
+
+## 下载
+
+### 推荐方式
+
+优先把 README 指向“固定入口”，不要直接写带版本号的文件地址。
+
+- Apple Silicon 直接下载: `https://releases.canvibe.useai4.us/agent-releases/v0.1.2/CanvasVibe-0.1.2-macos-arm64.zip`
+- Intel Mac 直接下载: `https://releases.canvibe.useai4.us/agent-releases/v0.1.2/CanvasVibe-0.1.2-macos-x64.zip`
+
+下载后:
+
+1. 解压压缩包
+2. 双击 `start.command`
+3. 首次如果被 macOS 拦截，右键选择“打开”一次即可
+
+
+## 项目定位
+
+CanvasVibe 不是另一个“更花哨的终端皮肤”，而是一个围绕开发者工作区组织方式重新设计的终端工作台。
